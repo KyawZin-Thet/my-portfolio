@@ -6,7 +6,7 @@ const projectsData = [
     title: "Snakes",
     image: "/images/snakesProject.jpg",
     gitUrl: "https://github.com/KyawZin-Thet/snakes",
-    previewUrl: "snakes-rose.vercel.app",
+    previewUrl: "https://snakes-rose.vercel.app/",
   },
   {
     id: 2,
