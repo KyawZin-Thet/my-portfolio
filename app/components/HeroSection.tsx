@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className="text-centre sm:text-left ">
           <div className="mb-3 pt-1 h-32 ">
             <h1 className=" pt-3 mt-5 text-white text-2xl sm:text-3xl lg:leading-normal font-extrabold">
-              Hello I'm
+              Hello I&apos;m
             </h1>
             <br />
             <TypeAnimation
@@ -29,8 +29,9 @@ export default function HeroSection() {
           </div>
 
           <p className="text-white  text-base sm:text-lg my-10 lg:text-xl">
-            I'm seeking my first job as a developer.Young and Hardworking, eager
-            to learn and can be hired in cheap salary.
+            I am actively seeking a position as a developer. I am a young and
+            hardworking individual, enthusiastic about learning and willing to
+            accept a competitive salary.
           </p>
           <div className=" mx-10 sm:mx-0 ">
             <Link

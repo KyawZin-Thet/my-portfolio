@@ -65,12 +65,13 @@ export default function AboutSection() {
         <div className="my-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Mongodb, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a proficient full-stack web developer passionate about crafting
+            interactive and responsive web applications. My experience spans
+            across various technologies, including JavaScript, React, Redux,
+            Node.js, Express, PostgreSQL, MongoDB, HTML, CSS, and Git. As a
+            quick learner, I continuously seek opportunities to broaden my
+            expertise. I thrive in collaborative environments and am eager to
+            work alongside others in crafting exceptional applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
