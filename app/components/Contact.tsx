@@ -18,13 +18,20 @@ export default function Contact() {
           </h3>
           <ul className=" ml-3  sm:ml-0 mt-5 my-0 sm:my-8 flex flex-col items-start gap-y-3">
             <li className="flex  ">
-              <EmailIcon /> <p className="ml-2">kyawzinthett7@gmail.com</p>
+              <EmailIcon />{" "}
+              <p className="tesm:text-basext-xs sm:text-base ml-2">
+                kyawzinthett7@gmail.com
+              </p>
             </li>
             <li className="flex  ">
-              <LocalPhoneIcon /> <p className="ml-2">09790833940</p>
+              <LocalPhoneIcon />{" "}
+              <p className="text-xs sm:text-base ml-2">09790833940</p>
             </li>
             <li className="flex ">
-              <HomeIcon /> <p className="ml-2">Shwe Pyi Thar, Yangon</p>
+              <HomeIcon />{" "}
+              <p className="text-xs sm:text-base  ml-2">
+                Shwe Pyi Thar, Yangon
+              </p>
             </li>
           </ul>
         </div>

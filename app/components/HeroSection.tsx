@@ -45,7 +45,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className=" place-self-center mt-4 lg:mt-0  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] flex items-center justify-center ">
+        <div className=" place-self-center mb-8 sm:mb-2 mt-4 lg:mt-0  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] flex items-center justify-center ">
           <Image
             src="/images/profilepicture.jpg"
             alt="profile image"
