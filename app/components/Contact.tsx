@@ -42,12 +42,18 @@ export default function Contact() {
             Social
           </h3>
           <ul className=" ml-7 sm:ml-0  mt-5 sm:my-8 flex flex-col items-start gap-y-3">
-            <Link href="" style={{ textDecoration: "none" }}>
+            <Link
+              href="https://www.facebook.com/MinGaLarPar.69?mibextid=ZbWKwL"
+              style={{ textDecoration: "none" }}
+            >
               <li className="flex  ">
                 <FacebookIcon /> <p className="ml-2">Facebook</p>
               </li>
             </Link>
-            <Link href="" style={{ textDecoration: "none" }}>
+            <Link
+              href="https://github.com/KyawZin-Thet"
+              style={{ textDecoration: "none" }}
+            >
               <li className="flex  ">
                 <GitHubIcon /> <p className="ml-2">GitHub</p>
               </li>
