@@ -5,11 +5,11 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
   return (
-    <section className="flex items-center  h-lvh">
+    <section className="flex items-center mt-32 sm:mt-0  h-lvh">
       <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center ">
         <div className="text-centre sm:text-left ">
-          <div className="mb-3 pt-1 h-32 ">
-            <h1 className=" pt-3 mt-5 text-white text-2xl sm:text-3xl lg:leading-normal font-extrabold">
+          <div className="mb-6 pt-1 h-32 ">
+            <h1 className="hidden sm:block sm:pt-3 mt-5 text-white text-2xl sm:text-3xl lg:leading-normal font-extrabold">
               Hello I&apos;m
             </h1>
             <br />

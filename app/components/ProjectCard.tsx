@@ -42,7 +42,7 @@ export default function ProjectCard({
               }}
             >
               <CodeIcon fontSize="large" />
-              <span>View Code</span>
+              <span className="text-center">View Code</span>
             </Link>
             <Link
               style={{
@@ -54,7 +54,7 @@ export default function ProjectCard({
               href={previewUrl}
             >
               <RemoveRedEyeIcon fontSize="large" />
-              <span>Live View</span>
+              <span className="text-center">Live View</span>
             </Link>
           </div>
         </div>
