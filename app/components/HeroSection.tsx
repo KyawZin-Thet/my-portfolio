@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
@@ -33,16 +32,6 @@ export default function HeroSection() {
             hardworking individual, enthusiastic about learning and willing to
             accept a competitive salary.
           </p>
-          <div className=" mx-10 sm:mx-0 ">
-            <Link
-              href="/"
-              className="flex  justify-center px-3  py-1 w-full sm:w-fit rounded-full  text-black mt-5"
-            >
-              <span className="border-4 border-solid border-slate-800  text-center inline-block bg-[#ffffff] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
-          </div>
         </div>
 
         <div className=" place-self-center mb-8 sm:mb-2 mt-4 lg:mt-0  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] flex items-center justify-center ">
