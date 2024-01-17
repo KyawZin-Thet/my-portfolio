@@ -3,13 +3,21 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    title: "Foodie pos",
+    image: "/images/foodie-pos.png ",
+    gitUrl: "https://github.com/KyawZin-Thet/my-foodie-pos",
+    previewUrl: "https://my-foodie-pos-eight.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Snakes",
     image: "/images/snakesProject.jpg",
     gitUrl: "https://github.com/KyawZin-Thet/snakes",
     previewUrl: "https://snakes-rose.vercel.app/",
   },
+
   {
-    id: 2,
+    id: 3,
     title: "2 Projects are still in progress ",
     image: "/images/comingsoon.jpg",
     gitUrl: "/",
