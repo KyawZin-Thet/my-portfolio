@@ -4,7 +4,7 @@ const projectsData = [
   {
     id: 1,
     title: "Foodie pos",
-    image: "/images/foodie-pos.png ",
+    image: "/images/foodiePos.png",
     gitUrl: "https://github.com/KyawZin-Thet/my-foodie-pos",
     previewUrl: "https://my-foodie-pos-eight.vercel.app/",
   },
