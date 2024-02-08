@@ -17,9 +17,9 @@ export default function ProjectCard({
   previewUrl,
 }: Props) {
   return (
-    <div className="place-self-center">
+    <div className="w-80 place-self-center border-white m-5">
       <div className=" max-w-sm rounded-md overflow-hidden shadow-lg bg-slate-950">
-        <div className="h-52">
+        <div className="h-60">
           <Image
             height={400}
             width={200}
