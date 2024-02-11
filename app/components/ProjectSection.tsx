@@ -49,6 +49,7 @@ export default function ProjectSection() {
       <ul className="flex justify-center flex-wrap w-full">
         {projectsData.map((project) => (
           <ProjectCard
+            key={project.id}
             title={project.title}
             description={project.description}
             imageUrl={project.image}

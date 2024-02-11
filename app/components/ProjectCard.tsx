@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface Props {
+  key: number;
   imageUrl: string;
   title: string;
   description?: string;
@@ -12,6 +13,7 @@ interface Props {
 }
 
 export default function ProjectCard({
+  key,
   imageUrl,
   title,
   description,
@@ -19,7 +21,7 @@ export default function ProjectCard({
   previewUrl,
 }: Props) {
   return (
-    <div className="m-8 w-full flex justify-center flex-wrap">
+    <div key={key} className="m-8 w-full flex justify-center flex-wrap">
       <Image
         height={0}
         width={300}
