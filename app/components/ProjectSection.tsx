@@ -13,7 +13,7 @@ const projectsData = [
   {
     id: 2,
     title: "Snakes",
-    image: "/images/snakesProject.jpg",
+    image: "/images/snakes.jpg",
     description:
       "This is a front-end project about snakes. You can search for snakes by name and click to see details about the snake.The tech stack is > Next.JS,React, MaterialUI, Redux Toolkit",
     gitUrl: "https://github.com/KyawZin-Thet/snakes",
@@ -42,14 +42,13 @@ const projectsData = [
 
 export default function ProjectSection() {
   return (
-    <section className="mt-7 mb-28" id="projects">
+    <section className="mt-7 mb-28 w-full" id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
       <ul className="flex justify-center flex-wrap w-full">
         {projectsData.map((project) => (
           <ProjectCard
-            key={project.id}
             title={project.title}
             description={project.description}
             imageUrl={project.image}
